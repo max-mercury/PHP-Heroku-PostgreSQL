@@ -30,7 +30,7 @@
 </nav>
 
 <?php
-  echo 'This is Index Page';
+  //echo 'This is Index Page';
 
   $sql = 'SELECT * FROM users';
   $stmt = $pdo->prepare($sql);
